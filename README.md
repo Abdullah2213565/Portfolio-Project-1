@@ -7,6 +7,8 @@
 - HTML
 - CSS
 - ES6LINT
+- Javascript
+
 ## Demo
     [Demo link](https://abdullah2213565.github.io/Portfolio-Project-1/)
 ## Getting Started

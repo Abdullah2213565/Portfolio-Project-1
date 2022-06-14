@@ -5,31 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/popup.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <header id="header">
+      <h1>LINTERS</h1>
       <nav>
-        <a id="logo" href="index.html">Abdullah Asghar</a>
+        <a id="logo" href="index.html">Abdullah</a>
         <img src="./icon/Icon-Menu.png" class="menu" alt="Menu-icon" />
+        <div class="mobile-menu">
+          <img src="./images/Icon-Cancel.png" alt="close-icon"  id="close-btn">
+        </div>
       </nav>
-      <div class="navbar">
-        <ul id="desktop-nav-links">
-          <li>
-            <a href="#">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./icon/Icon-Mail.png" class="mail" alt="mail icon" />
-            </a>
-          </li>
-        </ul>
+      <div class="mob-menu-hidden open-menu">
+        <div class="navbar">
+          <ul class ="menu-item desktop-nav-links">
+            <li>
+              <a href="#recent-works">Portfolio</a>
+            </li>
+            <li>
+              <a href="#about-section">About</a>
+            </li>
+            <li>
+              <a href="#contact-form">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="desktop-menu">
+        <div class="desktop-menu open-menu">
+          <div class="navbar">
+            <ul class ="menu-item desktop-nav-links">
+              <li>
+                <a href="#recent-works">Portfolio</a>
+              </li>
+              <li>
+                <a href="#about-section">About</a>
+              </li>
+              <li>
+                <a href="#contact-form">Contact</a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./icon/Icon-Mail.png" class="mail" alt="mail icon" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -87,11 +111,6 @@
         <div id="my-works">
           <div class="Featured">
             <div class="first-card-image-container">
-              <img
-                class="first-card-img-mobile"
-                src="./images/Img-Placeholder.png"
-                alt="project image"
-              />
               <img
                 class="first-card-img-desktop"
                 src="./images/Img-Placeholder-desktop.png"
@@ -364,5 +383,7 @@
         <p id="btn-capital"></p>
       </div>
     </main>
+    <script src="./index.js"></script>
   </body>
 </html>
+
