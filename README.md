@@ -18,6 +18,7 @@ To get a local copy up and running follow these simple example steps.
 - Basics of HTML
 - Basics of CSS
 - Basics of Linters
+- Basics of Javascript
 
 ### Setup
 - To begin clone this repostory, use the git clone command.
